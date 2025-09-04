@@ -1,0 +1,91 @@
+.menu-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .menu-icon {
+    width: 22px;
+    height: auto;
+    margin-right: 7px;
+  }
+  
+  .menu-item:hover span{
+    color: #0FE4BD;
+  }
+  
+  .menu-item.active span{
+    color:#0FE4BD;
+  }
+  
+  .menu-item.active .menu-icon, .menu-item:hover .menu-icon {
+    filter:invert(73%) sepia(47%) saturate(3391%) hue-rotate(140deg) brightness(250%) contrast(100%);
+  }
+  .menu-list {
+      width: 220px;
+  }
+
+.menu-container {
+  // transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  max-width: 220px;
+}
+
+.menu-container.collapse {
+  // transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+  max-width: 22px;
+  overflow: hidden;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 29px;
+}
+.collapse .hamburger-menu{
+  align-items: center;
+}
+.bar{
+  width: 16px;
+  height: 2px;
+  background-color: #0fe4bd;
+  margin: 2px 0;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+.collapse .hamburger-menu .bar {
+  width: 16px;
+  height: 2px;  
+  transform: none;
+}
+.menuitemBottomLess {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: #fff; 
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-decoration: none;
+  outline: none;
+}
+.dropdown{
+margin-top: 30px;
+margin-left: 30px;
+
+
+}

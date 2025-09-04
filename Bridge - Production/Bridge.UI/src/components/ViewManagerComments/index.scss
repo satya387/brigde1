@@ -1,0 +1,35 @@
+.comment-wrapper {
+  .heading-comments {
+    padding: 0px;
+    font-family: "Barlow";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0.5rem;
+  }
+
+  .rejection-wrapper {
+    margin-top: 1rem;
+    .rejection-heading {
+      padding: 0px;
+      font-family: "Barlow";
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 27px;
+      color: rgba(102, 102, 102, 1);
+      margin-bottom: 0.5rem;
+    }
+    .rejection-reason {
+      margin-top: 0.5rem;
+      border: 1px solid #d5d5e0;
+      outline: none;
+      border-radius: 4px;
+      padding: 0.5rem;
+      width: 80%;
+      background-color: hsl(0, 0%, 90%);
+      font-family: "Barlow";
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}

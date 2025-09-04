@@ -1,0 +1,14 @@
+.view-toggle{
+    border:0px;
+    margin-right:25px;
+    cursor: pointer;
+}
+
+.view-applicant {
+    color: #533EED;
+    margin-left: 1rem;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}

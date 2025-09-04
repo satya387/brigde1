@@ -1,0 +1,478 @@
+.firstdivLeftPane,
+.firstdivMidPane,
+.firstdivRightPane {
+  width: 260px;
+  height: 200px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+///table
+.list-table-rrageing-list {
+  width: 45%;
+  padding-right: 10px;
+  margin-left: 10px;
+  float:left;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 1px;
+}
+
+
+//Graph
+.rrApplicationStatus,
+.resourceAllocationCount,
+.technologywiseCount,
+.projectwiseRRCount {
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+  float:left;
+}
+
+.talentRejection {
+  width: 80%;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.graphblock {
+  margin-top: 20px;
+}
+
+.img-total-resource {
+  width: 50px;
+  height: 50px;
+  float: left;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.count {
+  float: inline-start;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+  margin-bottom: 1px;
+}
+
+.dashboard-p {
+  display: inline-block;
+  width: 180px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #0d0359;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.active-block,
+.withdrawn-block,
+.declined-block {
+  width: 70px;
+  height: 70px;
+  padding-right: 10px;
+  float: left;
+}
+
+.topfive-block {
+  display: inline-block;
+
+  h1 {
+    margin-bottom: 0px;
+    float: left;
+  }
+.img-arrow {
+  float: left;
+  margin: 0;
+  padding-left: 20px;
+}}
+.talentRejectionCount{
+  margin-left:auto;
+  float: right;
+  padding-right: 10px;
+}
+.talentRejection,.projectwiseRRCount{
+  h1{
+    margin-top: 10px;
+    width: 300px;
+  }
+}
+
+.talents-block{
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+    display: flex;
+    align-items: center;
+  h1 {
+    margin-right: 720px;
+  }
+}
+.talents-data{
+  margin-top: 2px;
+}
+
+.img-download{
+  width: 22px;
+  height: 22px;
+  padding-right: 1px;
+}
+
+.talents-profile-img {
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+.talents-table-profile-img{
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  margin-right: 2px;
+}
+
+.view-profile-talents-ageing {
+  text-decoration: none;
+  color: #533eed;
+  padding-left: 5px;
+}
+
+.list-data-rr-ageing{
+    padding-left: 2px;
+    white-space: nowrap;
+    .empname {
+      min-width: 175px !important;
+      white-space: normal;
+      .empimg {
+        width: 36px;
+        height: 36px;
+      }
+      .emp-name {
+        font-family: "Barlow";
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(83, 62, 237, 1);
+      }
+    }
+}
+.talents-ageing-filter{
+  width: 300px;
+  height: 30px;
+  float: right;
+  padding-bottom: 20px;
+}
+.talents-text-blue {
+  color: #533eed;
+  font-size: 15px;
+  line-height: 20px;
+  background: none;
+  border: 0px;
+  cursor: pointer;
+  margin-right: 20px;
+  font-weight: 500;
+  float:right;
+  margin-bottom: 80px;
+}
+.talents-rc-slider {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 20px;
+  .rc-slider-rail-0,
+  .rc-slider-rail-2 {
+    height: 5px;
+    background: rgb(221, 221, 221);
+    border-radius: 6px;
+    border: 1px solid #533eed;
+  }
+  .rc-slider-rail-1 {
+    height: 5px;
+    background: rgba(15, 228, 189, 1);
+    border: 1px solid #fff;
+  }
+  .rc-slider-handle {
+    height: 24px;
+    width: 24px;
+    border-radius: 4px;
+    background: #533eed;
+    cursor: grab;
+    opacity: 1;
+    margin-top: -8px;
+    border: none;
+    box-shadow: 0 0 1px 1px #ced4da;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.talents-heading{
+  float: left;
+  margin-top: 10px;
+}
+
+.talents-list-data a {
+  color: #533eed;
+  text-decoration: none;
+}
+.rr-list-data{
+  height: 65px;
+}
+
+.projectwise-topfive-block{
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  h1 {
+    margin-bottom: 10px;
+    float: left;
+    width:290px;
+  }
+.img-arrow {
+  float: left;
+  margin: 0;
+  padding-top: 10px;}
+}
+.projectwiseRRCount{
+  height: auto;
+}
+.db-rr-link{
+  margin-left:5px;
+  text-decoration: none;
+  color: #533eed;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px; 
+  height: 30px; 
+  border-radius: 50%;
+  float: left;
+  background: #ddd;
+  margin-bottom: 1px;
+  margin-right: 10px;
+}
+.circle-table{
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: #ddd;
+  width: 30px;
+  height: 30px;
+  text-align:center;
+  font-size: 16px;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 0.1px;
+}
+
+.element-block{
+  display: flex;
+   align-items:center;  
+}
+.rrCount{
+  width: 30%;
+}
+.projects-list{
+  float: left;
+  width: 70%;
+}
+.projectwise-text-blue{
+    color: #533eed;
+    font-size: 15px;
+    line-height: 20px;
+    background: none;
+    border: 0px;
+    cursor: pointer;
+    font-weight: 500;
+    float:right;
+    width: 200px;
+    margin-top: 0;
+}
+.projectwise-heading{
+  width: 500px;
+  float: left;
+}
+.projectwise-header{
+  float: left;
+}
+.projectwise-back-arrow{
+  float: left;
+  padding-right: 3px;
+}
+.talents-header-subdiv{
+  float: left;
+}
+.technologywiseCount{
+  height: auto;
+}
+
+.technologywise-topfive-block{
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  h1 {
+    margin-bottom: 10px;
+    float: left;
+    margin-top: 10px;
+  }
+.img-arrow {
+  float: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+}
+.technology-element-block{
+  display: flex;
+   align-items:center;  
+   height: 31px;
+}
+.technologywise-list-header {
+   padding-left: 2px;
+   white-space: normal;
+    .technologywise-empname-header {
+      min-width: 150px;
+      }
+ }
+    .technologywise-list-data {
+      padding-left: 2px;
+      white-space: nowrap;
+      div {
+        padding: 20px 8px;
+      }
+      .empname {
+        white-space: normal;
+        min-width: 150px;
+        .empimg {
+          width: 36px;
+          height: 36px;
+        }
+        .emp-name {
+          font-family: "Barlow";
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: rgba(83, 62, 237, 1);
+        }
+    }
+}
+.dashboard-container {
+    background-color: #f0f0f4;
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+
+    .left-panel {
+        display: flex;
+        flex-direction: column;
+        background-color: #0D0359;
+        min-height: 500px;
+        padding: 30px 20px;
+        max-width: 220px;
+    }
+
+    .right-panel {
+        display: flex;
+        flex-direction: column;
+        flex: 8;
+        padding: 20px 0px;
+
+        .loaderWrap {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+.dropped-heading{
+  width: 300px;
+  margin-top: 10px;
+}
+.dropped-block{
+  padding-right: 20px;
+}
+.unconfirmed-heading{
+  width: 400px;
+  margin-top: 10px;
+}
+.confirmed-block{
+  padding-left: 10px;
+}
+.resource-allocation-heading{
+  width: 700px;
+  float: left;
+}
+.resource-allocation-filter{
+  float: right;
+}
+.resource-allocation-arrow{
+  display: inline-block;
+ padding-top: 10px;
+  h1 {
+    margin-bottom: 0px;
+    float: left;
+    width: 250px;
+  }
+.img-arrow {
+  float: left;
+  margin: 0;
+  padding-top: 1px;
+}
+}
+.rrApplicationStatus{
+  h1{
+    padding-top: 10px;
+  }
+}
+.projectwise-header-filter-heading{
+  float: left;
+  width: 80%;
+}

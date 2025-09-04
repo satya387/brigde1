@@ -1,0 +1,44 @@
+
+.status-schedule{
+    padding: 0px !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+}
+.date-format{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    width: 100% !important;
+    font-size: 12px !important;
+}
+.status-schedule-wrapper {
+    padding-left: 0px !important;
+    width: 100% !important;
+}
+.status-card{
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.dropped {
+    color: gray;
+}
+.closed-status{
+    color: gray;
+}
+.resource-allocation {
+    white-space: initial;
+    color: #533EED;
+}
+
+.rejection-header {
+    width: auto !important;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    color: rgba(102, 102, 102, 1);
+    .required-field {
+        color: red;
+    }
+}

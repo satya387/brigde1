@@ -1,0 +1,42 @@
+.option-container {
+  margin: 1rem 0px;
+  .option-heading {
+    color: var(--text-colors-light-grey, #666);
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px; /* 168.75% */
+    margin-bottom: 4px;
+  }
+  .option-wrapper {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    .option-label {
+      display: flex;
+      align-items: center;
+      width: 50%;
+      color: var(--text-colors-dark-grey, #222529);
+      font-family: "Barlow";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 27px; /* 168.75% */
+      .option-checkbox {
+        cursor: pointer;
+        display: flex;
+        width: 20px;
+        height: 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid
+          var(--ui-color-light-grey-1-border-table-header, #d5d5e0);
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}

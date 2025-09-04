@@ -1,0 +1,14 @@
+export const OPPORTUNITY_HEADING_WFM = "Filter Opportunities";
+export const OPPORTUNITY_HEADING = "My Opportunities";
+export const FILTER_MY_OPPORTUNITY = `Filter ${OPPORTUNITY_HEADING}`;
+export const MODIFY_DETAILS = "Modify details";
+export const PRIMARY_SKILLS = "Primary Skills";
+export const DEFAULT_SELECTED_SKILL = "Default selected skills";
+export const OTHER_SKILLS = "Other Skills";
+export const ADD_CUSTOM_SKILL = "Add Custom Skills";
+export const ADD = "Add";
+export const EXPERIENCE_LEVEL = "Experience Level";
+export const WORK_LOCATION = "Work location";
+export const LOCATION = "Location";
+export const ROLE = "Role";
+export const PROJECT_NAME = "Projects";

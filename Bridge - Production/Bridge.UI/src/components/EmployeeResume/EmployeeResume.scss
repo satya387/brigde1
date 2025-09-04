@@ -1,0 +1,162 @@
+
+.employee-resume-wrapper{
+    position: relative;
+    background: #fff;
+    padding: 3rem;
+    padding-top: 0px;
+    .sub-heading-text {
+        font-family: 'Barlow';
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 600;
+    }
+    .body-text {
+        font-family: 'Barlow';
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .resume-header {
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        img {
+            height: 30px;
+            width: 140px;
+        }
+    }
+
+    .resume-profile-header {
+        margin-top: 1rem;
+        .employee-name {
+            font-family: 'Barlow';
+            font-size: 24px;
+            line-height: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .employee-info-wrapper {
+            display: flex;
+            padding: 0rem 1rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    .seperator-header {
+        margin: 2rem 0rem;
+        height: 4px;
+        background: #000;
+        border-radius: 8px;
+    }
+
+    .professional-summary-wrapper {
+        margin-bottom: 2rem;
+        .professional-summary {
+            margin: 1rem 2rem 0rem 0rem;
+        }
+    }
+
+    .skills-container {
+        margin-bottom: 2rem;
+        .skills-table-wrapper {
+            margin-top: 1.5rem;
+            .skills-table {
+                border: 1px solid #000;
+                border-collapse: collapse; 
+                table-layout: fixed;
+                width: 96%;
+                th, td {
+                    border: 1px solid #000;
+                    border-collapse: collapse;
+                    padding: 8px 20px;
+                    text-align: center;
+                }
+                .table-col-text {
+                    font-family: 'Barlow';
+                    font-size: 16px;
+                    line-height: 12px;
+                    font-weight: 700;
+                }
+            }
+            .add-skill-table {
+                border-top: none;
+                th {
+                    border-top: none;
+                }
+            }
+        }
+    }
+
+    .certification-wrapper {
+        margin-bottom: 2rem;
+        .certification-listing {
+            margin: 1rem 2rem 0rem 0rem;
+            .certification-item{
+               padding-left: 1rem;
+               line-height: 24px;
+            }
+        }
+    }
+
+    .employer-details {
+        margin-top: 2rem;
+        .employer-table-wrapper {
+            margin-top: 1.5rem;
+            .employer-table {
+                border: 1px solid #000;
+                border-collapse: collapse; 
+                table-layout: fixed;
+                width: 96%;
+                th, td {
+                    border: 1px solid #000;
+                    border-collapse: collapse;
+                    padding: 8px 20px;
+                    text-align: center;
+                }
+                .table-col-text {
+                    font-family: 'Barlow';
+                    font-size: 16px;
+                    line-height: 12px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+    }
+
+    .project-summary-wrapper {
+        margin-top: 2rem;
+        .project-summary-text {
+            margin: 1.5rem 2rem 0rem 0rem;
+        }
+        .margin-bottom-negative {
+            margin-bottom: -0.75rem;
+        }
+        .project-detail-wrapper {
+            margin-top: 2rem;
+            .table-project {
+                .table-project-row {
+                    .added-padding {
+                        padding: 0.25rem 0rem;
+                    }
+                    .table-key {
+                        font-family: 'Barlow';
+                        font-size: 16px;
+                        line-height: 20px;
+                        font-weight: 800;
+                        padding-right: 1rem;
+                    }
+                }
+            }
+            .responsibilities-wrapper {
+                margin-top: 1rem;
+                .responsibility-details {
+                    margin-top: 0.5rem;
+                    padding: 0rem 2.5rem 0rem 0rem;
+                }
+            }
+        }
+    }
+}

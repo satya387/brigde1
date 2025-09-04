@@ -1,0 +1,63 @@
+.suitability {
+    display: flex;
+    gap: 5px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .suitability.tooltip:hover::before{
+    top: 50px;
+    left: 0;
+  }
+  .suitability.suitability-header:hover{
+    overflow: visible;
+  }
+  .suitability.suitability-header:hover .suitability-cont {
+    display: block;
+   display: block;
+   right: 110px;
+   top: 0;
+   width: 390px;
+   background: #fff;
+   box-shadow: 0px 0px 16px 0px #D5D5E0;
+   border-radius: 8px;
+   padding: 20px;
+   color: #666;
+   font-size: 14px;
+   position: absolute;
+   z-index: 999;
+ }
+ .suitability:hover{
+   overflow: visible;
+ }
+ .suitability:hover .suitability-cont{
+   display: block;
+   right: 143px;
+   top: 0;
+   width: auto;
+   background: #fff;
+   box-shadow: 0px 0px 16px 0px #D5D5E0;
+   border-radius: 8px;
+   padding: 20px;
+   color: #666;
+   font-size: 14px;
+   position: absolute;
+   z-index: 999;
+ }
+ .suitability-cont {
+   display: none;  
+ }
+ .suitability-cont p{
+   display: flex;
+ }
+ .suitability table, .suitability td, .suitability tr {
+   border: 1px solid;
+   padding:10px;
+ }
+ .suitability table{
+   width: 100%;
+   border-collapse: collapse;
+ }
+ .reviewappfilter{
+  margin-right: 30px;
+ }

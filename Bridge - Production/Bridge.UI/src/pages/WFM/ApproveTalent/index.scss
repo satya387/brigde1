@@ -1,0 +1,40 @@
+.talent-approve-table-wrapper {
+  position: relative;
+  .list-table {
+    .list-header {
+      padding-left: 2px;
+      white-space: normal;
+      .empname-header {
+        min-width: 122px !important;
+        padding-left: 58px;
+      }
+    }
+    .list-data {
+      padding-left: 2px;
+      white-space: nowrap;
+      .empname {
+        min-width: 175px !important;
+        white-space: normal;
+        .empimg {
+          width: 36px;
+          height: 36px;
+        }
+        .emp-name {
+          font-family: "Barlow";
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: rgba(83, 62, 237, 1);
+        }
+      }
+    }
+  }
+}
+
+.modal-buttons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

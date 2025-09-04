@@ -1,0 +1,57 @@
+.custom-rr-container {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(213, 213, 224, 1);
+  .rr-id {
+    //     color: #222529;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px; /* 168.75% */
+  }
+  .rr-details {
+    //     display: flex;
+    .rr-content {
+      //       color: #666;
+      font-family: "Barlow";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px; /* 142.857% */
+    }
+    .seprator {
+      border: 1px solid rgba(213, 213, 224, 1);
+      width: 16px;
+      margin-right: 8px;
+      margin-left: 8px;
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+  }
+}
+
+.custom-rr-container-active {
+  display: block;
+  font-size: inherit;
+  width: 100%;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: rgb(83, 62, 237);
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.custom-rr-container:hover {
+  display: block;
+  font-size: inherit;
+  width: 100%;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: rgb(83, 62, 237);
+  color: #fff;
+  box-sizing: border-box;
+}

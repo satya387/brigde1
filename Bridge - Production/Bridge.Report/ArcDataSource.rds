@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="ArcDataSource">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=172.16.34.4;Initial Catalog=QMO_PROD_09032023</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>4111c2c1-f0fc-42a3-9779-25be64fd20fd</DataSourceID>
+</RptDataSource>

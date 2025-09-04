@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+body{
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+.header {
+  width: 100vw;
+  background-color: white;
+
+  .toolbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+
+    .boxone,.logo-wrap {
+      height: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 7%;
+      min-height: 64px;
+      cursor: pointer;
+    }
+    .help-text,.notification, .my-profile {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .my-profile img {
+      height: 36px;
+      width: 36px;
+      border-radius: 50%;
+      border: 1px solid #ddd;
+    }
+    .help-text{
+      font-weight: 500;
+    }
+    .searchbox,.help-text,.notification,.my-profile{
+      margin-left: 15px;
+      cursor: pointer;
+    }
+    .searchbox {
+      width: 320px;
+      display: flex;
+      padding: 0px 4px;
+      justify-content: flex-start;
+      align-items: center;
+      border-radius: 6px;
+      background: #F0F0F4;
+      min-height: 36px;
+
+      .searchbutton {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        font-size: 14px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        margin-right: 10px;
+      }
+
+      .searchfield {
+      padding-left: 10px;
+      height: 70%;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      font-size: 14px;
+      font-weight: 300;
+      margin: 0px;
+      }
+    }
+
+    .iconsbox {
+      height: auto;
+      display: flex;
+      justify-content:flex-end;
+
+      .icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      .iconstext {
+        color: black;
+        font-size: small;
+      }
+    }
+  }
+}
+.logo {
+  height: 20px;
+}
+
+@media only screen and (min-width: 300px) {
+  .boxone {
+    display: flex;
+    flex-direction: column;
+  }
+  .searchbox {
+    height: 42%;
+    margin-top: 4px;
+  }
+  .searchfield {
+    display: none;
+  }
+  .d-flex{
+    display: flex;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  .boxone {
+    display: flex;
+    flex-direction: row;
+  }
+
+  
+  .searchbox {
+    
+    height: 60%;
+  }
+  .searchfield {
+    font-size: 14px;
+    display: block;
+  }
+}

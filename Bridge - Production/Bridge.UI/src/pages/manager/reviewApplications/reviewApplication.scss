@@ -1,0 +1,112 @@
+.update-status-wrapper {
+  padding: 0px !important;
+  .btn-update {
+    white-space: nowrap;
+    position: relative;
+  }
+  .option-menu-wrapper {
+    position: absolute;
+    z-index: 999;
+    padding: 0;
+    background: #fff;
+    width: fit-content;
+    margin-left: -120px;
+    margin-top: 2px;
+    box-shadow: 0px 0px 12px 0px rgba(213, 213, 224, 0.6);
+    border-radius: 8px;
+    border: 1px solid rgba(83, 62, 237, 1);
+
+    .option-menu {
+      padding: 0;
+      .option-menu-items {
+        padding: 0.75rem;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        color: rgba(34, 37, 41, 1);
+        white-space: nowrap;
+        cursor: pointer;
+
+        &:hover {
+          background: linear-gradient(0deg, #533eed, #533eed),
+            linear-gradient(0deg, #ffffff, #ffffff);
+          color: #fff;
+        }
+      }
+      .disable-option {
+        opacity: 0.4;
+        pointer-events: none;
+      }
+    }
+  }
+}
+.status-schedule {
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  color: black;
+}
+.L2schedule {
+  color: black;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}
+.colorstatusActive {
+  color: Blue;
+}
+.date-format {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  width: 100% !important;
+  font-size: 12px !important;
+}
+.status-schedule-wrapper {
+  padding-left: 0px !important;
+  width: 100% !important;
+}
+.status-card {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.status-cont {
+  padding: 0px 10px 0px 0px !important;
+}
+
+.dropped {
+  color: gray;
+}
+.resource-allocation {
+  white-space: initial;
+  color: #533eed;
+}
+.colorstatusWithdrawn {
+  color: gray;
+}
+.colorstatusDeclined {
+  color: gray;
+}
+.colorstatusDropped {
+  color: gray;
+}
+.colorstatusEarmarked {
+  color: forestgreen;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  min-width: 79px !important;
+  border: 2px solid;
+  padding: 5px !important;
+  border-radius: 5px;
+}
+
+.status-Declined {
+  display: flex;
+  align-items: center;
+}
+
+.notepad-icon-container {
+  margin-left: 0.5rem;
+  .notepad-icon {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+  }
+}

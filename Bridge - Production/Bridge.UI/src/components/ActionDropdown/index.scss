@@ -1,0 +1,52 @@
+.update-status-wrapper-action {
+  .btn-update {
+    white-space: nowrap;
+    position: relative;
+  }
+  .option-menu-wrapper {
+    position: absolute;
+    z-index: 999;
+    padding: 0;
+    background: #fff;
+    width: fit-content;
+    margin-left: -100px;
+    margin-top: 1px;
+    box-shadow: 0px 0px 12px 0px rgba(213, 213, 224, 0.6);
+    border-radius: 8px;
+    border: 1px solid rgba(83, 62, 237, 1);
+
+    .option-menu {
+      padding: 0;
+      .option-menu-items {
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        color: rgba(34, 37, 41, 1);
+        white-space: nowrap;
+        cursor: pointer;
+        border-bottom: 0.5px solid #ddd;
+
+        &:hover {
+          background: linear-gradient(0deg, #533eed, #533eed),
+            linear-gradient(0deg, #ffffff, #ffffff);
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.no-dis {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.added-padding {
+  padding: 0px !important;
+}
+.no-padding {
+  padding: 0px !important;
+}
+.pagination {
+   z-index: 888;
+}

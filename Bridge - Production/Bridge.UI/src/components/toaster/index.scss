@@ -1,0 +1,30 @@
+.custom-toaster {
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    position: fixed;
+    top: 30px;
+    right: 0px;
+    width: 300px;
+    z-index: 99999;
+  }
+  
+  .custom-toaster.success {
+    background-color: #4caf50; /* Green for success */
+    color: #fff;
+  }
+  
+  .custom-toaster.failure,.custom-toaster.error {
+    background-color: #f44336; /* Red for failure */
+    color: #fff;
+  }
+  
+.custom-toaster .close-button{
+    position: absolute;
+    right: 10px;
+    border: 0px;
+    background: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,137 @@
+.future-available-checkbox-label {
+  font-size: 16px;
+  color: #0d0359;
+  font-weight: 500;
+  margin-top: -4px;
+  margin-right: 10px;
+  &input {
+    margin-right: 5px;
+  }
+}
+.future-available {
+  white-space: inherit !important;
+}
+.future-available .btn {
+  color: #533eed;
+  border: 1px solid #533eed;
+  background: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+.future-available .btn:hover {
+  background: #533eed;
+  color: #fff;
+}
+
+.emp-confirm-popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .emp-confirm-popup {
+    .emp-confirm-popup-header {
+      .emp-confirm-popup-header-text {
+        font-size: 18px;
+        color: #0d0359;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.emp-confirm-popup-header-text {
+  color: #0d0359;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0em;
+  margin: 0px;
+  text-align: center;
+}
+
+.emp-confirm-popup {
+  width: 90%;
+}
+
+.center-modal-buttons {
+  margin-top: 20px;
+  width: calc(100% - 20px) !important;
+  text-align: center;
+  .modal-button {
+    float: initial;
+  }
+  .loader {
+    margin-right: 0.5rem;
+  }
+  .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+
+.availablity-status {
+  display: flex;
+  flex-direction: column;
+  .availablity-text {
+    width: 100%;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+  .availablity-sub-text {
+    font-size: 11px;
+  }
+}
+
+.down-arrow-rotate {
+  transform: rotate(180deg);
+  transition: transform 0.25s ease-in;
+}
+
+.action-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin-left: 2px;
+  }
+}
+
+.update-talent-table-container {
+  position: relative;
+  .list-table {
+    .list-header {
+      padding-left: 2px;
+      white-space: normal;
+      .empname-header-cont {
+        min-width: 150px;
+      }
+    }
+    .list-data {
+      padding-left: 2px;
+      white-space: nowrap;
+      div {
+        padding: 20px 8px;
+      }
+      .empname {
+        white-space: normal;
+        min-width: 150px;
+        .empimg {
+          width: 36px;
+          height: 36px;
+        }
+        .emp-name {
+          font-family: "Barlow";
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: rgba(83, 62, 237, 1);
+        }
+      }
+    }
+  }
+}

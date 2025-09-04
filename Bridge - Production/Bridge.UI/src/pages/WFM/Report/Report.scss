@@ -1,0 +1,108 @@
+.date-range-wrapper {
+  margin-top: 0.5rem;
+  .range-wrap {
+    display: flex;
+    .range-picker {
+      width: 200px;
+    }
+    .range-picker-start {
+      margin-right: 1rem;
+    }
+    .range-cont {
+      display: flex;
+      align-items: center;
+      .label-range {
+        margin-right: 0.5rem;
+        font-family: "Barlow";
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 600;
+      }
+    }
+    .view {
+      margin-left: 1rem;
+      height: 40px;
+      cursor: pointer;
+      min-width: 100px;
+      margin-top: 2px;
+    }
+    .disabled {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+  }
+}
+
+.table-wrapper {
+  .table-loader {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .loader-img {
+      height: 80px;
+      width: 80px;
+    }
+  }
+  .download-button-wrapper {
+    width: calc(100vw - 320px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .scrollable-div {
+    width: calc(100vw - 320px);
+    overflow-x: auto; /* or overflow-x: scroll; */
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+    padding: 20px 4px 0px 0px; /* Optional padding for better visibility */
+    margin-bottom: 30px;
+    &::-webkit-scrollbar-track {
+      border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border: 2px solid transparent;
+      border-radius: 10px;
+      background-color: grey;
+    }
+  }
+
+  .scrollable-content {
+    width: 175%; /* Set the width of the content inside the scrollable div */
+  }
+}
+
+.report-select {
+  width: 250px;
+  margin-bottom: 2rem;
+  .basic-single {
+    width: 130%;
+    .select__control {
+      .select__indicators {
+        .select__indicator-separator {
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+    .select__menu {
+      .select__menu-list {
+        .select__option:hover {
+          cursor: pointer;
+        }
+      }
+      .select__menu-list::-webkit-scrollbar-track {
+        border-radius: 10px;
+      }
+      .select__menu-list::-webkit-scrollbar {
+        width: 4px;
+        height: 2px;
+      }
+      .select__menu-list::-webkit-scrollbar-thumb {
+        border: 2px solid transparent;
+        border-radius: 10px;
+        background-color: grey;
+      }
+    }
+  }
+}

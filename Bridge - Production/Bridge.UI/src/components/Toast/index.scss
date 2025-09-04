@@ -1,0 +1,37 @@
+.center-toast-wrapper {
+  display: flex;
+  padding: 12px 24px;
+  align-items: center;
+  position: fixed;
+  top: 30px;
+  max-width: 400px;
+  left: calc(50% - 200px);
+  z-index: 99999;
+  .message-text {
+    color: var(--ui-color-primary-color, #0d0359);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+  }
+  .icon-cross {
+    margin-left: 1rem;
+    margin-top: 4px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+}
+
+.success {
+  border-radius: 8px;
+  border: 1px solid #3cccb4;
+  background: var(--ui-color-light-green, #def6e7);
+}
+
+.error {
+  border-radius: 8px;
+  border: 1px solid #f2dad9;
+  background-color: #ffafa7; /* Red for failure */
+}

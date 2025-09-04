@@ -1,0 +1,90 @@
+.list-data {
+  .empname {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .empimg {
+      height: 36px;
+      width: auto;
+      border-radius: 50%;
+      border: 1px solid #ddd;
+    }
+  }
+}
+
+.view-profile {
+  text-decoration: none;
+  color: #533eed;
+}
+
+.card-footer.view-profile {
+  justify-content: center;
+}
+.back-arrow {
+  margin-bottom: 20px;
+  width: 22px;
+  cursor: pointer;
+  display: inline-block;
+}
+.schedule-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.available-resources {
+  .card-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    h2 {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 0em;
+      color: #0d0359;
+    }
+
+    h3 {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #666;
+    }
+
+    .empimg {
+      height: 120px;
+      width: auto;
+      border: 8px solid #ededf0;
+      border-radius: 50%;
+    }
+  }
+}
+
+.profile-sch {
+  margin-bottom: -38px;
+  margin-right: 0px;
+  z-index: 2;
+  width: calc(100% - 170px);
+}
+
+.dashcontainer {
+  .home-container {
+    .right-panel {
+      .profile-schedule {
+        margin-bottom: -38px;
+        margin-right: 0px;
+        z-index: 2;
+        width: calc(100% - 130px);
+      }
+    }
+  }
+}

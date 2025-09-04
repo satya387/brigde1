@@ -1,0 +1,217 @@
+.modal-interview-release-approval {
+  width: 100% !important;
+  .modal-content-release-approval {
+    width: 100% !important;
+    max-width: 1050px !important;
+    .modal-header-release-approval {
+      width: 100% !important;
+      margin-bottom: 1.5rem;
+    }
+
+    .modal-cont-release-approval {
+      width: calc(100% - 20px) !important;
+      padding-top: 0px;
+      margin-bottom: 1rem;
+      .auto-width {
+        width: auto !important;
+      }
+      .profile-img {
+        width: 60px;
+        border-radius: 50%;
+        border: 1px solid #ddd;
+      }
+      .employee-name {
+        padding: 0px 10px;
+        font-family: "Barlow";
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        color: rgba(13, 3, 89, 1);
+      }
+      .employee-detail-wrap {
+        padding: 0px 10px;
+        margin-top: 0.5rem;
+        .employee-detail {
+          padding: 0px;
+          font-family: "Barlow";
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 27px;
+          color: rgba(102, 102, 102, 1);
+          margin-right: 8px;
+        }
+        .project-name {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .seprator {
+          border: 1px solid rgba(213, 213, 224, 1);
+          width: 16px;
+          margin-right: 8px;
+          -webkit-transform: rotate(90deg);
+          -moz-transform: rotate(90deg);
+          -o-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+        }
+        .pill {
+          height: 28px;
+          border-radius: 8px;
+          gap: 10px;
+          padding: 4px 12px;
+          border: 1px solid rgba(213, 213, 224, 1);
+          background: linear-gradient(0deg, #ffffff, #ffffff);
+          margin-right: 0.25rem;
+          font-family: "Barlow";
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 27px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: rgba(102, 102, 102, 1);
+          white-space: nowrap;
+        }
+      }
+    }
+
+    .requesting-details-wrapper {
+      margin-top: 1rem;
+      display: flex;
+      .details-cont {
+        margin-right: 2rem;
+        .sub-header {
+          padding: 0px;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 27px;
+          color: rgba(102, 102, 102, 1);
+          margin-bottom: 0.5rem;
+        }
+      }
+      .details-cont-date {
+        width: 240px;
+      }
+      .details-cont-reason {
+        width: calc(100% - 280px);
+      }
+    }
+
+    .talent-informed-wrapper {
+      display: flex;
+      margin-top: 0.25rem;
+      margin-bottom: 0.75rem;
+      .flag {
+        width: 12.29px;
+        height: 16.85px;
+      }
+      .talent-informed {
+        font-family: "Barlow";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(102, 102, 102, 1);
+        margin-left: 8px;
+      }
+    }
+
+    .basic-single {
+      width: 75%;
+      .select__control {
+        .select__indicators {
+          .select__indicator-separator {
+            padding: 0;
+            margin: 0;
+          }
+        }
+      }
+      .select__menu {
+        height: 12rem !important;
+        .select__menu-list {
+          height: 12rem !important;
+          .select__option {
+            padding: 12px 6px;
+          }
+          .select__option:hover {
+            cursor: pointer;
+          }
+        }
+        .select__menu-list::-webkit-scrollbar-track {
+          border-radius: 10px;
+        }
+        .select__menu-list::-webkit-scrollbar {
+          width: 4px;
+          height: 2px;
+        }
+        .select__menu-list::-webkit-scrollbar-thumb {
+          border: 2px solid transparent;
+          border-radius: 10px;
+          background-color: grey;
+        }
+      }
+    }
+
+    .rejection-wrapper {
+      margin-top: 1rem;
+      .sub-header {
+        padding: 0px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 27px;
+        color: rgba(102, 102, 102, 1);
+        margin-bottom: 0.5rem;
+      }
+      .input-field {
+        margin-top: 0.5rem;
+        .textarea-add-comment {
+          border: 1px solid #d5d5e0;
+          outline: none;
+          resize: none;
+          border-radius: 4px;
+          width: 78%;
+          padding: 0.5rem;
+          font-size: 14px;
+          color: black;
+        }
+      }
+    }
+
+    .modal-buttons {
+      width: calc(100% - 20px) !important;
+      text-align: end;
+      margin-top: 1rem;
+      .modal-button {
+        float: initial;
+      }
+      .loader {
+        margin-right: 0.5rem;
+      }
+      .disabled {
+        opacity: 0.5;
+        pointer-events: none;
+      }
+    }
+  }
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+}
+
+.disable-date-picker {
+  background-color: hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 90%);
+  pointer-events: none;
+  // color: hsl(0, 0%, 80%);
+}
+
+.date-picker-release-approval-request {
+  width: 240px !important;
+  height: 44px !important;
+}

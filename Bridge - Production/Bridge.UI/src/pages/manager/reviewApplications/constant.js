@@ -1,0 +1,11 @@
+export const SCHEDULE_DISCUSSION = "Schedule Meeting";
+export const UPDATE_STATUS = "Update Status";
+export const REVERT = "Revert";
+export const EARMARKED = "Earmark";
+export const NOMINATE = "Nominate";
+export const DECLINE = "Decline Application";
+export const VIEW_APPLICATION = "View Application";
+export const VIEW_HISTORY = "View History";
+export const INTERVIEW_REJECTION = "Interview Rejection";
+export const RESOURCE_ALLOCATION = "Allocation Request";
+export const SCHEDULE_L2_MEETING = "Schedule L2 Meeting";
